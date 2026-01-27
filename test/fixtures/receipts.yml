@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  receipt_no: MyString
+  total_summary: 9.99
+  total_amount: 1
+
+two:
+  user: two
+  receipt_no: MyString
+  total_summary: 9.99
+  total_amount: 1

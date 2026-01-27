@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  receipt: one
+  sku_master: one
+  quantity: 1
+  price: 9.99
+
+two:
+  receipt: two
+  sku_master: two
+  quantity: 1
+  price: 9.99
