@@ -24,6 +24,7 @@ gem "prawn-table"
 
 
 
+gem "net-protocol", "~> 0.1", require: false
 
 
 
