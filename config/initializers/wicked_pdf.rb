@@ -1,5 +1,5 @@
-WickedPdf.config = {
-  exe_path: '/home/mikkee/.rbenv/shims/wkhtmltopdf',
-  layout: 'pdf',
-  encoding: 'UTF-8'
-}
+WickedPdf.configure do |config|
+  config.exe_path = "/usr/bin/wkhtmltopdf"
+  config.layout = "pdf"
+  config.encoding = "UTF-8"
+end
