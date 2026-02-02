@@ -41,10 +41,11 @@ class CartsController < ApplicationController
 
   # GET /carts
   def index
-    @carts = Cart.all
-
-    render json: @carts
+    render json: Cart.datatable(params)
   end
+
+
+
 
   # GET /carts/1
   def show

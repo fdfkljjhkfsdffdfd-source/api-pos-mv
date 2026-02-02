@@ -4,12 +4,22 @@ class CategoriesController < ApplicationController
 
 
 
+
   # GET /categories
   def index
-    @categories = Category.all
-    render json: @categories
-
+    render json: Category.datatable(params)
   end
+
+
+
+
+
+
+
+
+
+
+
 
   # GET /categories/1
   def show
